@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="SMS Cosmetics — makeup made for your everyday statement." />
+    <title>SMS Cosmetics — Make your mark</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="announcement">Complimentary delivery in Peshawar on orders over PKR 20,000 <span aria-hidden="true">✦</span> Welcome to SMS Cosmetics</div>
+
+    <header class="site-header" id="top">
+      <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
+      <nav class="main-nav" aria-label="Primary navigation">
+        <a href="#shop">Shop</a>
+        <a href="#shop" data-filter="new">New in</a>
+        <a href="#story">The SMS edit</a>
+      </nav>
+
+      <a class="brand" href="#top" aria-label="SMS Cosmetics home">
+        <img class="logo-image" src="screen.png" alt="SMS Cosmetics" />
+        <span class="brand-copy">SMS<br /><em>Cosmetics</em></span>
+      </a>
+
+      <div class="header-actions">
+        <button class="icon-button search-button" type="button" aria-label="Search">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.8"></circle><path d="m16 16 5 5"></path></svg>
+        </button>
+        <button class="icon-button" type="button" aria-label="Your account">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="3.5"></circle><path d="M4.7 20c.8-3.2 3.2-5 7.3-5s6.5 1.8 7.3 5"></path></svg>
+        </button>
+        <button class="cart-button" type="button" aria-label="Open cart">Bag <span id="cart-count">0</span></button>
+      </div>
+    </header>
+
+    <div class="mobile-drawer" aria-hidden="true">
+      <a href="#shop">Shop</a><a href="#shop" data-filter="new">New in</a><a href="#story">The SMS edit</a>
+    </div>
+
+    <main>
+      <section class="hero section-rule">
+        <div class="hero-copy">
+          <p class="eyebrow">01 / New season</p>
+          <h1>Make your<br /><i>mark.</i></h1>
+          <p class="hero-intro">Colour with intention. Skin that feels like skin. Beauty made to move with you — and never hide who you are.</p>
+          <a class="text-link" href="#shop">Explore the collection <span>↗</span></a>
+        </div>
+        <div class="hero-image-wrap">
+          <div class="hero-image image-credit">
+            <img src="https://images.squarespace-cdn.com/content/v1/5d14e8bfa505890001205e37/1674731370252-Z0AUT5YZPUBO4PCRVZ85/pauuulette-blog-beaute-maquillage.JPG?format=2500w" alt="Pink cosmetics arranged on a soft pink surface" />
+            <span>Image source / Pauuulette</span>
+          </div>
+          <div class="hero-stamp">S<br /><small>SMS</small></div>
+        </div>
+        <div class="hero-side-note">Beauty<br />without<br /><i>permission</i></div>
+      </section>
+
+      <section class="ticker" aria-label="SMS Cosmetics principles">
+        <div class="ticker-track"><span>Own your look</span><b>✳</b><span>Wear the feeling</span><b>✳</b><span>Leave a little colour</span><b>✳</b><span>Own your look</span><b>✳</b><span>Wear the feeling</span></div>
+      </section>
+
+      <section class="shop section-rule" id="shop">
+        <div class="section-heading">
+          <div><p class="eyebrow">02 / Shop SMS</p><h2>Good things,<br /><i>in colour.</i></h2></div>
+          <div class="shop-controls">
+            <button class="filter-button active" type="button" data-filter="all">All products</button>
+            <button class="filter-button" type="button" data-filter="face">Face</button>
+            <button class="filter-button" type="button" data-filter="lips">Lips</button>
+            <button class="filter-button" type="button" data-filter="new">New in</button>
+          </div>
+        </div>
+
+        <div class="product-grid">
+          <article class="product-card" data-category="face new">
+            <a class="product-image tone-sand" href="#" aria-label="View Skin Filter Serum">
+              <span class="product-tag">New</span>
+              <img src="https://images.unsplash.com/photo-1612817288484-6f916006741a?auto=format&fit=crop&w=900&q=85" alt="Minimal skincare bottle on a neutral background" loading="lazy" />
+              <span class="quick-add">Quick add <b>+</b></span>
+            </a>
+            <div class="product-meta"><div><h3>Skin Filter Serum</h3><p>Lightweight tint · 18 shades</p></div><strong>PKR 8,900</strong></div>
+          </article>
+          <article class="product-card" data-category="lips new">
+            <a class="product-image tone-pink" href="#" aria-label="View Lip Cloud">
+              <span class="product-tag">New</span>
+              <img src="https://images.unsplash.com/photo-1586495777744-4413f21062fa?auto=format&fit=crop&w=900&q=85" alt="Pink lipstick and beauty products" loading="lazy" />
+              <span class="quick-add">Quick add <b>+</b></span>
+            </a>
+            <div class="product-meta"><div><h3>Lip Cloud</h3><p>Soft-matte colour · 08 rosewood</p></div><strong>PKR 6,700</strong></div>
+          </article>
+          <article class="product-card" data-category="face">
+            <a class="product-image tone-peach" href="#" aria-label="View Airbrush Blush">
+              <img src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=900&q=85" alt="Makeup palette and brushes" loading="lazy" />
+              <span class="quick-add">Quick add <b>+</b></span>
+            </a>
+            <div class="product-meta"><div><h3>Airbrush Blush</h3><p>Buildable cream colour · 06 petal</p></div><strong>PKR 6,200</strong></div>
+          </article>
+          <article class="product-card" data-category="lips">
+            <a class="product-image tone-red" href="#" aria-label="View Gloss Note">
+              <img src="https://images.unsplash.com/photo-1625093742435-6fa192b6fb10?auto=format&fit=crop&w=900&q=85" alt="Red beauty product in close up" loading="lazy" />
+              <span class="quick-add">Quick add <b>+</b></span>
+            </a>
+            <div class="product-meta"><div><h3>Gloss Note</h3><p>Glass-like shine · 04 cherry</p></div><strong>PKR 5,400</strong></div>
+          </article>
+        </div>
+        <div class="center-link"><a class="text-link" href="#">View all products <span>↗</span></a></div>
+      </section>
+
+      <section class="story section-rule" id="story">
+        <div class="story-image image-credit"><img src="https://images.unsplash.com/photo-1487412912498-0447578fcca8?auto=format&fit=crop&w=1200&q=85" alt="Woman wearing an expressive beauty look" loading="lazy" /><span>Image source / Unsplash</span></div>
+        <div class="story-copy"><p class="eyebrow">03 / Our point of view</p><h2>There is no<br /><i>right way</i><br />to be beautiful.</h2><p>SMS began with a simple idea: your beauty routine should feel like a message from you, to you. Consider this your permission slip for more colour, more play, and less perfection.</p><a class="button button-dark" href="#">Read our story <span>↗</span></a></div>
+      </section>
+
+      <section class="journal section-rule">
+        <div class="journal-heading"><p class="eyebrow">04 / From the journal</p><h2>Notes from<br /><i>the mirror.</i></h2><a class="text-link" href="#">Read all notes <span>↗</span></a></div>
+        <div class="journal-grid">
+          <a class="journal-card" href="#"><img src="https://images.unsplash.com/photo-1512496015851-a90fb38ba796?auto=format&fit=crop&w=900&q=85" alt="Beauty products arranged on a table" loading="lazy" /><span>How to make your base feel like nothing</span><small>Routine · 04 min read</small></a>
+          <a class="journal-card" href="#"><img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=900&q=85" alt="Makeup brushes and beauty products" loading="lazy" /><span>The five-minute colour story</span><small>How-to · 03 min read</small></a>
+        </div>
+      </section>
+
+      <section class="newsletter">
+        <div><p class="eyebrow">05 / Stay in the loop</p><h2>Good news.<br /><i>Great colour.</i></h2></div>
+        <form class="signup-form"><label for="email">Your email, please</label><div><input id="email" type="email" placeholder="hello@example.com" required /><button type="submit" aria-label="Subscribe">↗</button></div><p class="form-message" role="status"></p></form>
+      </section>
+    </main>
+
+    <footer class="site-footer"><div class="footer-logo"><img class="logo-image" src="screen.png" alt="SMS Cosmetics" /><span class="brand-copy">SMS<br /><em>Cosmetics</em></span></div><div class="footer-links"><a href="#">Instagram</a><a href="#">TikTok</a><a href="#">Contact</a><a href="#">Shipping & returns</a></div><p>Peshawar, Pakistan · © 2025 SMS Cosmetics. Made for your everyday.</p></footer>
+
+    <div class="search-modal" aria-hidden="true"><div class="search-panel"><button class="close-search" type="button" aria-label="Close search">×</button><p class="eyebrow">Search SMS</p><label for="site-search">What are you looking for?</label><input id="site-search" type="search" placeholder="Try “lip colour”" /></div></div>
+    <div class="toast" role="status" aria-live="polite">Added to your bag <span>✦</span></div>
+    <script src="script.js"></script>
+  </body>
+</html>
